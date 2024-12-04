@@ -1,0 +1,191 @@
+[02:56:25] [main/INFO]: Loading Minecraft 1.21.3 with Fabric Loader 0.16.9
+[02:56:26] [main/INFO]: Loading 48 mods:
+	- appleskin 3.0.6+mc1.21.3
+	   \-- cloth-config 16.0.141
+	        \-- cloth-basic-math 0.6.1
+	- balm-fabric 21.3.3
+	   \-- kuma_api 21.3.1-SNAPSHOT
+	- fabric-api 0.110.0+1.21.3
+	   |-- fabric-api-base 0.4.50+119c825640
+	   |-- fabric-api-lookup-api-v1 1.6.81+fd37071f40
+	   |-- fabric-biome-api-v1 14.0.6+fd37071f40
+	   |-- fabric-block-api-v1 1.0.28+fd37071f40
+	   |-- fabric-block-view-api-v2 1.0.16+fd37071f40
+	   |-- fabric-blockrenderlayer-v1 2.0.4+fd37071f40
+	   |-- fabric-client-tags-api-v1 1.1.24+fd37071f40
+	   |-- fabric-command-api-v1 1.2.58+f71b366f40
+	   |-- fabric-command-api-v2 2.2.37+c9d82ab240
+	   |-- fabric-commands-v0 0.2.75+df3654b340
+	   |-- fabric-content-registries-v0 9.1.8+fd37071f40
+	   |-- fabric-convention-tags-v1 2.1.3+7f945d5b40
+	   |-- fabric-convention-tags-v2 2.9.3+84ebbb0e40
+	   |-- fabric-crash-report-info-v1 0.3.3+fd37071f40
+	   |-- fabric-data-attachment-api-v1 1.4.0+dbad41f140
+	   |-- fabric-data-generation-api-v1 21.0.18+fd37071f40
+	   |-- fabric-dimensions-v1 4.0.7+fd37071f40
+	   |-- fabric-entity-events-v1 2.0.8+825023f840
+	   |-- fabric-events-interaction-v0 2.0.12+c2c3ac4740
+	   |-- fabric-game-rule-api-v1 1.0.59+fd37071f40
+	   |-- fabric-item-api-v1 11.1.7+fd37071f40
+	   |-- fabric-item-group-api-v1 4.1.17+fd37071f40
+	   |-- fabric-key-binding-api-v1 1.0.53+fd37071f40
+	   |-- fabric-keybindings-v0 0.2.51+df3654b340
+	   |-- fabric-lifecycle-events-v1 2.5.1+6da5ef6940
+	   |-- fabric-loot-api-v2 3.0.26+3f89f5a540
+	   |-- fabric-loot-api-v3 1.0.14+fd37071f40
+	   |-- fabric-message-api-v1 6.0.21+fd37071f40
+	   |-- fabric-model-loading-api-v1 3.0.9+fd37071f40
+	   |-- fabric-networking-api-v1 4.3.5+fd37071f40
+	   |-- fabric-object-builder-api-v1 17.0.9+fd37071f40
+	   |-- fabric-particles-v1 4.0.10+fd37071f40
+	   |-- fabric-recipe-api-v1 7.0.4+fd37071f40
+	   |-- fabric-registry-sync-v0 5.3.0+2758bfbf40
+	   |-- fabric-renderer-api-v1 4.0.5+fd37071f40
+	   |-- fabric-renderer-indigo 1.9.5+fd37071f40
+	   |-- fabric-rendering-data-attachment-v1 0.3.54+73761d2e40
+	   |-- fabric-rendering-fluids-v1 3.1.15+fd37071f40
+	   |-- fabric-rendering-v0 1.1.84+df3654b340
+	   |-- fabric-rendering-v1 8.0.8+6922831640
+	   |-- fabric-resource-conditions-api-v1 5.0.8+fd37071f40
+	   |-- fabric-resource-loader-v0 3.0.6+fd37071f40
+	   |-- fabric-screen-api-v1 2.0.34+fd37071f40
+	   |-- fabric-screen-handler-api-v1 1.3.101+fd37071f40
+	   |-- fabric-sound-api-v1 1.0.29+fd37071f40
+	   |-- fabric-transfer-api-v1 5.4.3+fd37071f40
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+54a41b1c40
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- hardcorerevival 21.3.4
+	- java 21
+	- minecraft 1.21.3
+	- netherportalfix 21.3.2
+[02:56:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/nanita/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:56:26] [main/INFO]: Compatibility level set to JAVA_21
+[02:56:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:56:36] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:56:38] [main/INFO]: Loaded 1337 recipes
+[02:56:38] [main/INFO]: Loaded 1448 advancements
+[02:56:38] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.508 ms
+[02:56:38] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[02:56:38] [Server thread/INFO]: Loading properties
+[02:56:38] [Server thread/INFO]: Default game type: SURVIVAL
+[02:56:38] [Server thread/INFO]: Generating keypair
+[02:56:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:56:38] [Server thread/INFO]: Using epoll channel type
+[02:56:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:56:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:56:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:56:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:56:38] [Server thread/INFO]: Preparing level "world"
+[02:56:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:56:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:56:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:56:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:56:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:56:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:56:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:56:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:56:42] [Server thread/INFO]: Time elapsed: 3492 ms
+[02:56:42] [Server thread/INFO]: Done (3.804s)! For help, type "help"
+[02:56:47] [Server thread/INFO]: inser[/127.81.159.172:38771] logged in with entity id 48 at (66.61554434131263, 101.0, -91.25966950046127)
+[02:56:47] [Server thread/INFO]: inser joined the game
+[02:58:10] [Server thread/INFO]: inser hit the ground too hard
+[02:58:31] [Server thread/INFO]: An entity is required to run this command here
+[02:58:37] [Server thread/INFO]: Revived inser
+[02:59:08] [Server thread/INFO]: inser fell from a high place
+[02:59:08] [Server thread/INFO]: [inser: Killed inser]
+[02:59:13] [Server thread/INFO]: Revived inser
+[02:59:17] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:01:51] [Server thread/INFO]: [inser: Applied enchantment Efficiency V to inser's item]
+[03:01:52] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:01:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=67, y=99, z=-89} class_2338{x=67, y=100, z=-89}
+[03:01:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=67, y=99, z=-89} class_2338{x=67, y=100, z=-89}
+[03:01:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=100, z=-90} class_2338{x=67, y=100, z=-89}
+[03:02:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=62, y=95, z=-115} class_2338{x=64, y=98, z=-121}
+[03:02:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=60, y=95, z=-114} class_2338{x=62, y=95, z=-117}
+[03:02:19] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:02:25] [Server thread/INFO]: [inser: Applied enchantment Efficiency V to inser's item]
+[03:02:30] [Server thread/INFO]: [inser: Applied enchantment Unbreaking III to inser's item]
+[03:02:32] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:02:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=62, y=96, z=-110} class_2338{x=62, y=95, z=-110}
+[03:02:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=62, y=96, z=-110} class_2338{x=62, y=95, z=-110}
+[03:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=60, y=97, z=-104} class_2338{x=62, y=96, z=-105}
+[03:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=60, y=97, z=-104} class_2338{x=62, y=96, z=-105}
+[03:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=60, y=97, z=-104} class_2338{x=62, y=96, z=-105}
+[03:02:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=60, y=97, z=-104} class_2338{x=62, y=96, z=-105}
+[03:03:00] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:03:04] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:03:06] [Server thread/INFO]: inser died
+[03:03:07] [Server thread/INFO]: inser has made the advancement [Monster Hunter]
+[03:03:18] [Server thread/INFO]: Revived inser
+[03:03:22] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:03:39] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:03:42] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:04:10] [Server thread/INFO]: [inser: Set the time to 1000]
+[03:04:28] [Server thread/INFO]: [inser: Summoned new Warden]
+[03:04:31] [Server thread/INFO]: inser has made the advancement [Sneak 100]
+[03:05:23] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:05:28] [Server thread/INFO]: inser died
+[03:05:33] [Server thread/INFO]: Revived inser
+[03:05:35] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:06:04] [Server thread/INFO]: [inser: Summoned new Iron Golem]
+[03:06:17] [Server thread/INFO]: [inser: Summoned new Iron Golem]
+[03:07:46] [Server thread/INFO]: inser has made the advancement [Enchanter]
+[03:08:33] [Server thread/INFO]: inser has made the advancement [Acquire Hardware]
+[03:08:42] [Server thread/INFO]: inser has completed the challenge [Over-Overkill]
+[03:09:29] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:09:34] [Server thread/INFO]: inser has reached the goal [Postmortal]
+[03:09:36] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:10:11] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 200.000000, -90.537000]
+[03:10:19] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 400.000000, -90.537000]
+[03:10:25] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:10:33] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:10:51] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 400.000000, -90.537000]
+[03:10:53] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:10:58] [Server thread/INFO]: inser fell from a high place
+[03:11:05] [Server thread/INFO]: Revived inser
+[03:11:06] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:12:08] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:12:09] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:12:20] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:12:25] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:12:26] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:12:37] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:12:48] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:12:49] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:12:59] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:13:00] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:13:02] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:13:11] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:13:12] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:13:13] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:13:22] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:13:25] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:13:25] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:13:35] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:13:41] [Server thread/INFO]: [inser: Set the time to 1000]
+[03:13:45] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:13:47] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:14:07] [Server thread/INFO]: [inser: Summoned new Warden]
+[03:14:10] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:14:20] [Server thread/INFO]: inser fell from a high place
+[03:14:25] [Server thread/INFO]: Revived inser
+[03:14:26] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:14:41] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:14:42] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:14:58] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:15:01] [Server thread/INFO]: [inser: Summoned new Warden]
+[03:15:29] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:15:29] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:15:41] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[03:15:44] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:15:44] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[03:15:55] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:01] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:02] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:02] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:03] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:04] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:04] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:05] [Server thread/INFO]: [inser: Teleported inser to 67.919000, 600.000000, -90.537000]
+[03:16:19] [Server thread/INFO]: [Not Secure] <inser> ez
