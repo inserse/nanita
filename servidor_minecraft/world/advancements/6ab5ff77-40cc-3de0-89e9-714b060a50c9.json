@@ -11,11 +11,59 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-12-07 05:57:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2024-12-07 05:34:53 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2024-12-07 05:57:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-12-07 05:46:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-12-07 06:11:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-12-07 05:58:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:black": "2024-12-07 06:17:59 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
@@ -41,6 +89,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-12-07 06:11:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2024-12-07 05:34:53 +0000"
@@ -50,6 +104,36 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2024-12-07 05:59:25 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/iron_from_basic": {
+    "criteria": {
+      "recipe_condition": "2024-12-07 05:49:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
     },
     "done": true
   },
@@ -65,9 +149,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pile_of_iron_ingots": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-12-07 05:46:10 +0000"
     },
     "done": true
   },
@@ -77,9 +185,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-12-07 05:44:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2024-12-07 05:33:50 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/iron_to_gold_conversion_kit": {
+    "criteria": {
+      "has_item": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2024-12-07 05:50:32 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/copper_from_basic": {
+    "criteria": {
+      "recipe_condition": "2024-12-07 05:49:25 +0000"
     },
     "done": true
   },
@@ -92,6 +230,12 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2024-12-07 05:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
     },
     "done": true
   },
@@ -125,15 +269,65 @@
     },
     "done": true
   },
+  "packedup:basic_backpack": {
+    "criteria": {
+      "has_backpack": "2024-12-07 05:49:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2024-12-07 05:25:26 +0000"
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-12-07 05:40:44 +0000",
+      "minecraft:spider": "2024-12-07 05:40:45 +0000",
+      "minecraft:zombie": "2024-12-07 06:17:02 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2024-12-07 05:28:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-12-07 05:46:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/striped_towel": {
+    "criteria": {
+      "has_white_wool": "2024-12-07 05:46:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-12-07 06:13:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-12-07 05:40:44 +0000"
     },
     "done": true
   },
@@ -152,6 +346,18 @@
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
       "in_water": "2024-12-07 05:25:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/building_blocks/azalea_wood": {
+    "criteria": {
+      "has_log": "2024-12-07 06:14:34 +0000"
     },
     "done": true
   },
@@ -179,6 +385,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-12-07 05:46:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2024-12-07 05:25:26 +0000"
@@ -197,6 +409,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2024-12-07 05:25:26 +0000"
@@ -206,6 +430,30 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2024-12-07 05:28:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-12-07 06:13:21 +0000"
     },
     "done": true
   },
@@ -221,15 +469,51 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-07 06:17:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-12-07 05:44:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipe/building_blocks/carpentry_table": {
     "criteria": {
       "unlock_right_away": "2024-12-07 05:24:01 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_the_recipe": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-12-07 05:46:10 +0000"
     },
     "done": true
   },
@@ -248,6 +532,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-12-07 05:46:10 +0000"
     },
     "done": true
   },
@@ -272,6 +562,18 @@
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-12-07 05:44:43 +0000"
     },
     "done": true
   },
@@ -305,6 +607,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-12-07 05:46:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:00 +0000"
@@ -323,6 +631,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-07 05:40:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-12-07 05:59:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:00 +0000"
@@ -335,11 +661,47 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-12-07 05:46:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2024-12-07 05:57:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2024-12-07 05:40:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-07 05:58:49 +0000",
+      "minecraft:frozen_ocean": "2024-12-07 06:06:58 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-12-07 06:15:18 +0000",
       "minecraft:forest": "2024-12-07 05:24:02 +0000",
+      "minecraft:river": "2024-12-07 05:43:18 +0000",
       "minecraft:meadow": "2024-12-07 05:32:34 +0000",
-      "minecraft:birch_forest": "2024-12-07 05:26:57 +0000"
+      "minecraft:birch_forest": "2024-12-07 05:26:57 +0000",
+      "minecraft:stony_shore": "2024-12-07 05:47:16 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:51 +0000"
     },
     "done": false
   },
@@ -361,6 +723,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-07 05:46:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2024-12-07 05:34:57 +0000"
@@ -369,7 +737,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_porkchop": "2024-12-07 05:34:11 +0000"
+      "cooked_porkchop": "2024-12-07 05:34:11 +0000",
+      "cooked_rabbit": "2024-12-07 05:49:50 +0000",
+      "cooked_chicken": "2024-12-07 05:49:48 +0000"
     },
     "done": false
   },
@@ -382,6 +752,12 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/building_blocks/azalea_planks": {
+    "criteria": {
+      "has_log": "2024-12-07 06:14:34 +0000"
     },
     "done": true
   },
@@ -403,9 +779,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2024-12-07 05:25:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-07 05:55:26 +0000"
     },
     "done": true
   },
