@@ -14,15 +14,23 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-12-07 05:58:49 +0000",
-      "minecraft:frozen_ocean": "2024-12-07 06:06:58 +0000",
+      "minecraft:beach": "2024-12-07 06:28:20 +0000",
       "minecraft:old_growth_pine_taiga": "2024-12-07 06:15:18 +0000",
+      "minecraft:dark_forest": "2024-12-07 06:24:10 +0000",
       "minecraft:forest": "2024-12-07 05:23:19 +0000",
       "minecraft:taiga": "2024-12-07 05:55:27 +0000",
+      "minecraft:sparse_jungle": "2024-12-07 06:40:07 +0000",
       "minecraft:river": "2024-12-07 05:43:12 +0000",
+      "minecraft:lukewarm_ocean": "2024-12-07 06:34:43 +0000",
+      "minecraft:stony_shore": "2024-12-07 05:47:15 +0000",
+      "minecraft:lush_caves": "2024-12-07 06:42:00 +0000",
+      "minecraft:old_growth_birch_forest": "2024-12-07 06:24:44 +0000",
+      "minecraft:frozen_ocean": "2024-12-07 06:06:58 +0000",
+      "minecraft:ocean": "2024-12-07 06:34:39 +0000",
       "minecraft:meadow": "2024-12-07 05:32:35 +0000",
       "minecraft:birch_forest": "2024-12-07 05:27:34 +0000",
-      "minecraft:stony_shore": "2024-12-07 05:47:15 +0000",
-      "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:45 +0000"
+      "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:45 +0000",
+      "minecraft:bamboo_jungle": "2024-12-07 06:35:51 +0000"
     },
     "done": false
   },
@@ -35,6 +43,12 @@
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2024-12-07 05:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2024-12-07 06:36:12 +0000"
     },
     "done": true
   },
@@ -86,6 +100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2024-12-07 06:26:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2024-12-07 05:58:58 +0000"
@@ -131,6 +151,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2024-12-07 06:11:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_axe": "2024-12-07 06:26:49 +0000"
     },
     "done": true
   },
@@ -248,6 +274,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_axe": "2024-12-07 06:26:49 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/mossy_waystone_from_vines": {
     "criteria": {
       "has_waystone": "2024-12-07 05:46:03 +0000"
@@ -353,6 +385,12 @@
   "minecraft:recipes/transportation/acacia_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-07 05:43:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-07 06:35:13 +0000"
     },
     "done": true
   },
@@ -529,6 +567,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-12-07 06:40:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2024-12-07 05:25:23 +0000"
@@ -613,6 +657,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-12-07 06:40:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2024-12-07 05:55:15 +0000"
@@ -640,6 +690,18 @@
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-07 05:43:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-12-07 06:20:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2024-12-07 06:36:12 +0000"
     },
     "done": true
   },
@@ -829,6 +891,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2024-12-07 06:36:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2024-12-07 05:25:23 +0000"
@@ -850,6 +918,12 @@
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-07 06:48:03 +0000"
     },
     "done": true
   },
@@ -955,9 +1029,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2024-12-07 06:44:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:27:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-12-07 06:38:12 +0000"
     },
     "done": true
   },
@@ -984,6 +1070,7 @@
       "cooked_porkchop": "2024-12-07 05:34:32 +0000",
       "cooked_chicken": "2024-12-07 05:40:53 +0000",
       "cooked_mutton": "2024-12-07 05:33:59 +0000",
+      "melon_slice": "2024-12-07 06:37:06 +0000",
       "cooked_salmon": "2024-12-07 05:54:51 +0000"
     },
     "done": false
@@ -991,6 +1078,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:27:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-12-07 06:38:12 +0000"
     },
     "done": true
   },
@@ -1030,6 +1123,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-12-07 06:38:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/bundle": {
     "criteria": {
       "has_string": "2024-12-07 05:40:13 +0000"
@@ -1066,9 +1165,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-12-07 06:20:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-12-07 05:55:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-12-07 06:40:56 +0000"
     },
     "done": true
   },
@@ -1093,6 +1204,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2024-12-07 05:43:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-12-07 06:20:53 +0000"
     },
     "done": true
   },

@@ -258,3 +258,70 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [06:19:39] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
 [06:20:49] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
 [06:21:05] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[06:28:52] [Server thread/ERROR]: Error executing task on Server
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_9154.comp_2242()" because "type" is null
+	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:143) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:137) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/dev.architectury.networking.NetworkManager.collectPackets(NetworkManager.java:133) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/dev.architectury.networking.NetworkManager.sendToPlayer(NetworkManager.java:142) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/me.shedaniel.rei.plugin.common.displays.tag.TagNodes.lambda$init$1(TagNodes.java:137) ~[RoughlyEnoughItems-17.0.790-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerReceiver$1(NetworkAggregator.java:71) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$3(NetworkAggregator.java:108) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/dev.architectury.networking.transformers.SplitPacketTransformer.inbound(SplitPacketTransformer.java:174) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$4(NetworkAggregator.java:102) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/dev.architectury.networking.fabric.NetworkManagerImpl$1.lambda$registerC2S$0(NetworkManagerImpl.java:58) ~[architectury-14.0.4-fabric.jar:?]
+	at knot/net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.lambda$receive$0(ServerPlayNetworkAddon.java:72) ~[fabric-networking-api-v1-4.3.5+fd37071f40-a3ad55f5d27b7334.jar:?]
+	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:889) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:180) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:871) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:35:13] [Server thread/INFO]: inser has made the advancement [Sweet Dreams]
+[06:35:17] [Server thread/INFO]: Miau0110 has made the advancement [Sweet Dreams]
+[06:44:24] [Server thread/INFO]: inser has made the advancement [The Cutest Predator]
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.io.IOException: Packet handshake/serverbound/minecraft:intention (class_2889) was larger than I expected, found 119 bytes extra whilst reading packet serverbound/minecraft:intention
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//net.minecraft.class_2543.decode(class_2543.java:43)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:426)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:393)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.flow.FlowControlHandler.channelInactive(FlowControlHandler.java:134)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:413)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[06:52:13] [Server thread/INFO]: inser has made the advancement [Best Friends Forever]

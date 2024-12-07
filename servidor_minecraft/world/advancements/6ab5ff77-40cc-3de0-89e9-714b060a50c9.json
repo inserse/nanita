@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2024-12-07 06:37:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:00 +0000"
@@ -179,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-12-07 06:25:51 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/mossy_waystone_from_vines": {
     "criteria": {
       "has_waystone": "2024-12-07 05:32:43 +0000"
@@ -248,6 +260,12 @@
   "minecraft:recipes/food/cooked_rabbit_from_smoking": {
     "criteria": {
       "has_rabbit": "2024-12-07 05:33:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-07 06:35:17 +0000"
     },
     "done": true
   },
@@ -397,6 +415,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-12-07 06:47:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2024-12-07 05:28:39 +0000"
@@ -457,6 +481,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2024-12-07 06:37:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_the_recipe": "2024-12-07 05:34:07 +0000"
@@ -478,6 +508,12 @@
   "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
       "has_salmon": "2024-12-07 05:44:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-12-07 06:24:15 +0000"
     },
     "done": true
   },
@@ -607,6 +643,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2024-12-07 06:37:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2024-12-07 05:46:10 +0000"
@@ -649,6 +691,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2024-12-07 06:47:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2024-12-07 05:27:00 +0000"
@@ -658,6 +706,12 @@
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2024-12-07 05:26:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2024-12-07 06:24:15 +0000"
     },
     "done": true
   },
@@ -694,16 +748,30 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-12-07 05:58:49 +0000",
-      "minecraft:frozen_ocean": "2024-12-07 06:06:58 +0000",
+      "minecraft:beach": "2024-12-07 06:28:23 +0000",
       "minecraft:old_growth_pine_taiga": "2024-12-07 06:15:18 +0000",
+      "minecraft:dark_forest": "2024-12-07 06:24:13 +0000",
       "minecraft:forest": "2024-12-07 05:24:02 +0000",
+      "minecraft:sparse_jungle": "2024-12-07 06:40:09 +0000",
       "minecraft:river": "2024-12-07 05:43:18 +0000",
+      "minecraft:lukewarm_ocean": "2024-12-07 06:34:43 +0000",
+      "minecraft:stony_shore": "2024-12-07 05:47:16 +0000",
+      "minecraft:lush_caves": "2024-12-07 06:42:34 +0000",
+      "minecraft:old_growth_birch_forest": "2024-12-07 06:24:51 +0000",
+      "minecraft:frozen_ocean": "2024-12-07 06:06:58 +0000",
+      "minecraft:ocean": "2024-12-07 06:34:39 +0000",
       "minecraft:meadow": "2024-12-07 05:32:34 +0000",
       "minecraft:birch_forest": "2024-12-07 05:26:57 +0000",
-      "minecraft:stony_shore": "2024-12-07 05:47:16 +0000",
-      "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:51 +0000"
+      "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:51 +0000",
+      "minecraft:bamboo_jungle": "2024-12-07 06:39:04 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2024-12-07 06:24:15 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
@@ -714,6 +782,12 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-12-07 06:38:48 +0000"
     },
     "done": true
   },
@@ -739,13 +813,21 @@
     "criteria": {
       "cooked_porkchop": "2024-12-07 05:34:11 +0000",
       "cooked_rabbit": "2024-12-07 05:49:50 +0000",
-      "cooked_chicken": "2024-12-07 05:49:48 +0000"
+      "cooked_chicken": "2024-12-07 05:49:48 +0000",
+      "cooked_mutton": "2024-12-07 06:21:10 +0000",
+      "melon_slice": "2024-12-07 06:37:09 +0000"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-12-07 06:38:48 +0000"
     },
     "done": true
   },
@@ -761,9 +843,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-12-07 06:38:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2024-12-07 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-12-07 06:47:09 +0000"
     },
     "done": true
   },
