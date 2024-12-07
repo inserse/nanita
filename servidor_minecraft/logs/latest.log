@@ -336,3 +336,9 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.3158817104521177,0.0,-13.473405867220663
 [06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.3751194692525814,0.0,-13.868632762678772
 [06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.4311350336133728,0.0,-14.264245621606278
+[07:03:25] [Server thread/INFO]: inser lost connection: Timed out
+[07:03:25] [Server thread/INFO]: inser left the game
+[07:03:25] [Server thread/WARN]: handleDisconnection() called twice
+[07:08:20] [Server thread/INFO]: Miau0110 lost connection: Disconnected
+[07:08:20] [Server thread/INFO]: Miau0110 left the game
+[07:09:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
