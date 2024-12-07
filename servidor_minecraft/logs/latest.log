@@ -325,3 +325,14 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 [06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 [06:52:13] [Server thread/INFO]: inser has made the advancement [Best Friends Forever]
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -0.8240708680340276,0.0,-10.314990901094916
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -0.8831690895116253,0.0,-10.710009803838147
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -0.9431959627863762,0.0,-11.10493791210456
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.0040812924449938,0.0,-11.499780363987156
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.065758122844386,0.0,-11.894542431969512
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.1281624141347493,0.0,-12.289229513212376
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.191236529987009,0.0,-12.683846461436133
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.2542401566088301,0.0,-13.07851247333565
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.3158817104521177,0.0,-13.473405867220663
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.3751194692525814,0.0,-13.868632762678772
+[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.4311350336133728,0.0,-14.264245621606278

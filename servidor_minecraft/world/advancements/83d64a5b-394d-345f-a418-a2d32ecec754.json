@@ -27,10 +27,12 @@
       "minecraft:old_growth_birch_forest": "2024-12-07 06:24:44 +0000",
       "minecraft:frozen_ocean": "2024-12-07 06:06:58 +0000",
       "minecraft:ocean": "2024-12-07 06:34:39 +0000",
+      "minecraft:jungle": "2024-12-07 06:51:39 +0000",
       "minecraft:meadow": "2024-12-07 05:32:35 +0000",
       "minecraft:birch_forest": "2024-12-07 05:27:34 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:45 +0000",
-      "minecraft:bamboo_jungle": "2024-12-07 06:35:51 +0000"
+      "minecraft:bamboo_jungle": "2024-12-07 06:35:51 +0000",
+      "minecraft:plains": "2024-12-07 06:53:58 +0000"
     },
     "done": false
   },
@@ -112,6 +114,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/white_bundle": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2024-12-07 05:56:43 +0000"
@@ -123,6 +131,12 @@
       "has_iron_ingot": "2024-12-07 05:55:15 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:rusty": "2024-12-07 06:52:13 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
@@ -163,6 +177,12 @@
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2024-12-07 05:33:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2024-12-07 06:49:33 +0000"
     },
     "done": true
   },
@@ -388,6 +408,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-12-07 06:35:13 +0000"
@@ -513,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2024-12-07 06:49:33 +0000"
+    },
+    "done": true
+  },
   "versecraft:recipes/building_blocks/azalea_wood": {
     "criteria": {
       "has_log": "2024-12-07 06:12:47 +0000"
@@ -528,6 +560,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2024-12-07 05:43:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-12-07 06:52:42 +0000"
     },
     "done": true
   },
@@ -615,6 +653,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2024-12-07 05:27:06 +0000"
@@ -675,6 +719,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2024-12-07 05:55:15 +0000"
@@ -705,6 +755,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2024-12-07 05:33:20 +0000"
@@ -714,6 +770,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-12-07 05:27:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-07 06:52:13 +0000"
     },
     "done": true
   },
@@ -759,9 +821,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2024-12-07 05:55:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-12-07 06:52:42 +0000"
     },
     "done": true
   },
@@ -921,6 +995,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2024-12-07 06:48:03 +0000"
@@ -966,6 +1046,12 @@
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2024-12-07 05:40:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
     },
     "done": true
   },
@@ -1017,6 +1103,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2024-12-07 05:27:06 +0000"
@@ -1044,6 +1136,12 @@
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_bamboo": "2024-12-07 06:38:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
     },
     "done": true
   },
@@ -1084,6 +1182,12 @@
   "minecraft:recipes/building_blocks/bamboo_block": {
     "criteria": {
       "has_bamboo": "2024-12-07 06:38:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-12-07 06:52:42 +0000"
     },
     "done": true
   },
