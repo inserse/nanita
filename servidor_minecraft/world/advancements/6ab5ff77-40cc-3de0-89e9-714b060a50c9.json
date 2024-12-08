@@ -408,6 +408,7 @@
       "cooked_chicken": "2024-12-07 05:49:48 +0000",
       "cooked_mutton": "2024-12-07 06:21:10 +0000",
       "cooked_beef": "2024-12-08 05:59:28 +0000",
+      "baked_potato": "2024-12-08 22:17:24 +0000",
       "melon_slice": "2024-12-07 06:37:09 +0000"
     },
     "done": false
@@ -445,9 +446,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-07 05:40:44 +0000",
+      "minecraft:phantom": "2024-12-08 22:19:31 +0000",
       "minecraft:breeze": "2024-12-08 21:50:39 +0000",
       "minecraft:spider": "2024-12-07 05:40:45 +0000",
       "minecraft:zombie": "2024-12-07 06:17:02 +0000",
+      "minecraft:drowned": "2024-12-08 22:20:17 +0000",
       "minecraft:bogged": "2024-12-08 21:44:31 +0000",
       "minecraft:slime": "2024-12-08 21:30:31 +0000"
     },

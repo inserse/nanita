@@ -3760,6 +3760,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:bolt_armor_trim_smithing_template_smithing_trim": "2024-12-08 22:10:48 +0000"
+    },
+    "done": true
+  },
   "waystones:recipes/decorations/warp_dust": {
     "criteria": {
       "has_ender_pearl": "2024-12-08 21:35:15 +0000"
