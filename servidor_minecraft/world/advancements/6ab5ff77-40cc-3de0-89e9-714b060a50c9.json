@@ -403,6 +403,7 @@
     "criteria": {
       "cooked_porkchop": "2024-12-07 05:34:11 +0000",
       "bread": "2024-12-08 07:06:55 +0000",
+      "golden_apple": "2024-12-08 21:51:11 +0000",
       "cooked_rabbit": "2024-12-07 05:49:50 +0000",
       "cooked_chicken": "2024-12-07 05:49:48 +0000",
       "cooked_mutton": "2024-12-07 06:21:10 +0000",
@@ -2121,6 +2122,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2024-12-08 21:53:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2024-12-08 20:51:39 +0000"
@@ -2130,6 +2137,18 @@
   "minecraft:recipes/misc/green_dye": {
     "criteria": {
       "has_cactus": "2024-12-08 20:57:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2024-12-08 21:53:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2024-12-08 21:50:40 +0000"
     },
     "done": true
   },
@@ -2202,6 +2221,12 @@
   "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
       "has_slime_ball": "2024-12-08 21:30:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2024-12-08 21:50:40 +0000"
     },
     "done": true
   },
