@@ -444,8 +444,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-07 05:40:44 +0000",
+      "minecraft:breeze": "2024-12-08 21:50:39 +0000",
       "minecraft:spider": "2024-12-07 05:40:45 +0000",
       "minecraft:zombie": "2024-12-07 06:17:02 +0000",
+      "minecraft:bogged": "2024-12-08 21:44:31 +0000",
       "minecraft:slime": "2024-12-08 21:30:31 +0000"
     },
     "done": false
@@ -1939,6 +1941,18 @@
     },
     "done": true
   },
+  "versecraft:recipes/decorations/diorite_brick_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/building_blocks/cracked_tuff_bricks": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_copper_grate": {
     "criteria": {
       "has_waxed_copper_block": "2024-12-08 21:29:56 +0000"
@@ -1948,6 +1962,24 @@
   "minecraft:adventure/minecraft_trials_edition": {
     "criteria": {
       "minecraft_trials_edition": "2024-12-08 21:29:28 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/building_blocks/diorite_brick_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/building_blocks/chiseled_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/decorations/polished_diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
     },
     "done": true
   },
@@ -1963,9 +1995,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_sandstone": "2024-12-08 20:57:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/building_blocks/diorite_brick_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2024-12-08 21:48:17 +0000"
     },
     "done": true
   },
@@ -1993,6 +2049,12 @@
     },
     "done": true
   },
+  "versecraft:recipes/building_blocks/diorite_brick_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2024-12-08 21:09:33 +0000"
@@ -2005,9 +2067,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2024-12-08 20:51:39 +0000"
+    },
+    "done": true
+  },
+  "versecraft:recipes/building_blocks/chiseled_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
     },
     "done": true
   },
@@ -2032,6 +2106,12 @@
   "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
     "criteria": {
       "has_smooth_sandstone": "2024-12-08 20:57:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
     },
     "done": true
   },
@@ -2071,6 +2151,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2024-12-08 21:30:40 +0000"
@@ -2095,6 +2187,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
       "has_slime_ball": "2024-12-08 21:30:40 +0000"
@@ -2113,15 +2217,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2024-12-08 21:29:56 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
     "criteria": {
       "has_smooth_sandstone": "2024-12-08 20:57:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
     },
     "done": true
   },
@@ -2134,6 +2268,12 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2024-12-08 21:30:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
     },
     "done": true
   },
@@ -2155,9 +2295,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2024-12-08 21:48:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2024-12-08 21:29:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2024-12-08 21:42:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2024-12-08 21:45:20 +0000"
     },
     "done": true
   },
