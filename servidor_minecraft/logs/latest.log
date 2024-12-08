@@ -255,3 +255,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [22:10:48] [Server thread/INFO]: inser has made the advancement [Crafting a New Look]
 [22:13:03] [Server thread/INFO]: [Not Secure] <inser> sherd
 [22:29:26] [Server thread/INFO]: inser has made the advancement [Hot Stuff]
+[22:35:15] [Server thread/INFO]: inser lost connection: Disconnected
+[22:35:15] [Server thread/INFO]: inser left the game
+[22:35:17] [Server thread/INFO]: Miau0110 lost connection: Disconnected
+[22:35:17] [Server thread/INFO]: Miau0110 left the game
+[22:36:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
