@@ -1,7 +1,7 @@
-[05:22:40] [main/INFO]: Loading Minecraft 1.21.3 with Fabric Loader 0.16.9
-[05:22:41] [ForkJoinPool-1-worker-4/WARN]: The mod "versecraft" contains invalid entries in its mod json:
+[05:54:48] [main/INFO]: Loading Minecraft 1.21.3 with Fabric Loader 0.16.9
+[05:54:49] [ForkJoinPool-1-worker-1/WARN]: The mod "versecraft" contains invalid entries in its mod json:
 - Unsupported root entry "frozenlib_registry" at line 51 column 23
-[05:22:41] [main/INFO]: Loading 96 mods:
+[05:54:50] [main/INFO]: Loading 96 mods:
 	- appleskin 3.0.6+mc1.21.3
 	   \-- cloth-config 16.0.141
 	        \-- cloth-basic-math 0.6.1
@@ -115,230 +115,86 @@
 	   \-- frozenlib 1.9.3-mc1.21.2
 	- villagernames 8.1
 	- waystones 21.3.3
-[05:22:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/nanita/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:22:42] [main/INFO]: Compatibility level set to JAVA_21
-[05:22:43] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:22:44] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[05:22:55] [main/INFO]: Loading Collective version 7.89.
-[05:22:55] [main/INFO]: Registering Particles for frozenlib
-[05:22:56] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
-[05:22:56] [main/INFO]: Loading config FrozenLibConfig from frozenlib
-[05:22:56] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[05:22:56] [main/INFO]: Initializing JamLib on Fabric
-[05:22:57] [main/INFO]: Updated config file at /workspaces/nanita/servidor_minecraft/config/rightclickharvest.json5
-[05:22:57] [main/INFO]: Initializing Right Click Harvest on FABRIC
-[05:22:57] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[05:22:57] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[05:22:57] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[05:22:57] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[05:22:57] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[05:22:57] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[05:22:57] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[05:22:57] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[05:22:57] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[05:22:58] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[05:22:59] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[05:22:59] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:22:59] [main/INFO]: filament models registered: 2
-[05:22:59] [main/INFO]: Filament items registered: 1
-[05:22:59] [main/INFO]: Filament blocks registered: 0
-[05:22:59] [main/INFO]: Filament decorations registered: 237
-[05:22:59] [main/INFO]: Filament decoration block entities registered: 172
-[05:23:00] [main/INFO]: filament models registered: 2
-[05:23:01] [Worker-Main-2/ERROR]: Couldn't parse data file 'tooltrims:toolsmithing_table' from 'tooltrims:recipe/toolsmithing_table.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"tag":"minecraft:planks"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:planks"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:planks"}; Second: Not a string: {"tag":"minecraft:planks"}']
-[05:23:02] [main/INFO]: Loaded 1951 recipes
-[05:23:02] [main/INFO]: Loaded 1830 advancements
-[05:23:02] [main/WARN]: Recipe packedup:diamond_from_silver can't be placed due to empty ingredients and will be ignored
-[05:23:02] [main/WARN]: Recipe packedup:silver_from_copper can't be placed due to empty ingredients and will be ignored
-[05:23:02] [main/WARN]: Recipe packedup:silver_from_iron can't be placed due to empty ingredients and will be ignored
-[05:23:02] [main/INFO]: Applied 66 biome modifications to 63 of 64 new biomes in 11.16 ms
-[05:23:02] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
-[05:23:02] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
-[05:23:02] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[05:23:02] [Server thread/INFO]: Loading properties
-[05:23:02] [Server thread/INFO]: Default game type: SURVIVAL
-[05:23:02] [Server thread/INFO]: Generating keypair
-[05:23:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:23:02] [Server thread/INFO]: Using epoll channel type
-[05:23:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:23:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:23:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:23:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:23:03] [Server thread/INFO]: Preparing level "world"
-[05:23:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:23:08] [Server thread/INFO]: Time elapsed: 4970 ms
-[05:23:08] [Server thread/INFO]: Done (5.447s)! For help, type "help"
-[05:23:08] [Server thread/INFO]: [REI] ########################################
-[05:23:08] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[05:23:08] [Server thread/INFO]: [REI] Plugins (3):
-[05:23:08] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[05:23:08] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[05:23:08] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[05:23:08] [Server thread/INFO]: [REI] ########################################
-[05:23:08] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 3.788 ms, totaling 88.49 ms.
-[05:23:08] [Server thread/INFO]: [REI] ----------------------------------------
-[05:23:08] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[05:23:08] [Server thread/INFO]: [REI] Plugins (3):
-[05:23:08] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[05:23:08] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[05:23:08] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[05:23:08] [Server thread/INFO]: [REI] ----------------------------------------
-[05:23:08] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.571 ms, totaling 110.0 ms.
-[05:23:18] [Server thread/INFO]: inser[/127.81.159.172:42957] logged in with entity id 16 at (10.5, 67.0, 6.5)
-[05:23:18] [Server thread/INFO]: inser joined the game
-[05:23:33] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
-[05:23:33] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
-[05:23:49] [Server thread/INFO]: inser lost connection: Disconnected
-[05:23:49] [Server thread/INFO]: inser left the game
-[05:24:01] [Server thread/INFO]: Miau0110[/127.191.197.32:33771] logged in with entity id 233 at (8.5, 67.0, 7.5)
-[05:24:01] [Server thread/INFO]: Miau0110 joined the game
-[05:24:02] [Server thread/INFO]: inser[/127.81.159.172:40815] logged in with entity id 317 at (12.168708067669217, 63.0, 5.300000011920929)
-[05:24:02] [Server thread/INFO]: inser joined the game
-[05:27:58] [Server thread/INFO]: inser has made the advancement [Stone Age]
-[05:28:08] [Server thread/INFO]: Miau0110 has made the advancement [Stone Age]
-[05:28:25] [Server thread/INFO]: inser has made the advancement [Getting an Upgrade]
-[05:28:35] [Server thread/INFO]: Miau0110 has made the advancement [Getting an Upgrade]
-[05:34:17] [Server thread/INFO]: inser has made the advancement [Monster Hunter]
-[05:36:24] [Server thread/ERROR]: Error executing task on Server
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_9154.comp_2242()" because "type" is null
-	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:143) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:137) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.NetworkManager.collectPackets(NetworkManager.java:133) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.NetworkManager.sendToPlayer(NetworkManager.java:142) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/me.shedaniel.rei.plugin.common.displays.tag.TagNodes.lambda$init$1(TagNodes.java:137) ~[RoughlyEnoughItems-17.0.790-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerReceiver$1(NetworkAggregator.java:71) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$3(NetworkAggregator.java:108) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.transformers.SplitPacketTransformer.inbound(SplitPacketTransformer.java:174) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$4(NetworkAggregator.java:102) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.fabric.NetworkManagerImpl$1.lambda$registerC2S$0(NetworkManagerImpl.java:58) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.lambda$receive$0(ServerPlayNetworkAddon.java:72) ~[fabric-networking-api-v1-4.3.5+fd37071f40-a3ad55f5d27b7334.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:889) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:180) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:871) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[05:40:44] [Server thread/INFO]: Miau0110 has made the advancement [Monster Hunter]
-[05:49:19] [Server thread/INFO]: inser has made the advancement [Packing Up!]
-[05:49:25] [Server thread/INFO]: Miau0110 has made the advancement [Packing Up!]
-[05:55:15] [Server thread/INFO]: inser has made the advancement [Acquire Hardware]
-[05:55:26] [Server thread/INFO]: Miau0110 has made the advancement [Acquire Hardware]
-[05:56:43] [Server thread/INFO]: inser has made the advancement [Isn't It Iron Pick]
-[05:57:33] [Server thread/INFO]: inser has made the advancement [Suit Up]
-[05:57:38] [Server thread/INFO]: Miau0110 has made the advancement [Suit Up]
-[05:58:19] [Server thread/INFO]: Miau0110 has made the advancement [Isn't It Iron Pick]
-[05:58:58] [Server thread/INFO]: inser has made the advancement [Not Today, Thank You]
-[06:09:21] [Server thread/INFO]: inser has made the advancement [Ice Bucket Challenge]
-[06:17:59] [Server thread/INFO]: Miau0110 has made the advancement [Best Friends Forever]
-[06:18:46] [Server thread/INFO]: inser died
-[06:19:06] [Server thread/INFO]: Miau0110 was slain by Zombie
-[06:19:07] [Server thread/INFO]: inser died
-[06:19:14] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[06:19:14] [Server thread/INFO]: /revive inser<--[HERE]
-[06:19:24] [Server thread/INFO]: Revived inser
-[06:19:26] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
-[06:19:39] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
-[06:20:49] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
-[06:21:05] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
-[06:28:52] [Server thread/ERROR]: Error executing task on Server
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_9154.comp_2242()" because "type" is null
-	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:143) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:137) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.NetworkManager.collectPackets(NetworkManager.java:133) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.NetworkManager.sendToPlayer(NetworkManager.java:142) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/me.shedaniel.rei.plugin.common.displays.tag.TagNodes.lambda$init$1(TagNodes.java:137) ~[RoughlyEnoughItems-17.0.790-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerReceiver$1(NetworkAggregator.java:71) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$3(NetworkAggregator.java:108) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.transformers.SplitPacketTransformer.inbound(SplitPacketTransformer.java:174) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$4(NetworkAggregator.java:102) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/dev.architectury.networking.fabric.NetworkManagerImpl$1.lambda$registerC2S$0(NetworkManagerImpl.java:58) ~[architectury-14.0.4-fabric.jar:?]
-	at knot/net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.lambda$receive$0(ServerPlayNetworkAddon.java:72) ~[fabric-networking-api-v1-4.3.5+fd37071f40-a3ad55f5d27b7334.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:889) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:180) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:871) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[06:35:13] [Server thread/INFO]: inser has made the advancement [Sweet Dreams]
-[06:35:17] [Server thread/INFO]: Miau0110 has made the advancement [Sweet Dreams]
-[06:44:24] [Server thread/INFO]: inser has made the advancement [The Cutest Predator]
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.io.IOException: Packet handshake/serverbound/minecraft:intention (class_2889) was larger than I expected, found 119 bytes extra whilst reading packet serverbound/minecraft:intention
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//net.minecraft.class_2543.decode(class_2543.java:43)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:426)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:393)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.flow.FlowControlHandler.channelInactive(FlowControlHandler.java:134)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:413)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[06:45:43] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[06:52:13] [Server thread/INFO]: inser has made the advancement [Best Friends Forever]
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -0.8240708680340276,0.0,-10.314990901094916
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -0.8831690895116253,0.0,-10.710009803838147
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -0.9431959627863762,0.0,-11.10493791210456
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.0040812924449938,0.0,-11.499780363987156
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.065758122844386,0.0,-11.894542431969512
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.1281624141347493,0.0,-12.289229513212376
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.191236529987009,0.0,-12.683846461436133
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.2542401566088301,0.0,-13.07851247333565
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.3158817104521177,0.0,-13.473405867220663
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.3751194692525814,0.0,-13.868632762678772
-[06:53:44] [Server thread/WARN]: Spruce Boat (vehicle of inser) moved too quickly! -1.4311350336133728,0.0,-14.264245621606278
-[07:03:25] [Server thread/INFO]: inser lost connection: Timed out
-[07:03:25] [Server thread/INFO]: inser left the game
-[07:03:25] [Server thread/WARN]: handleDisconnection() called twice
-[07:08:20] [Server thread/INFO]: Miau0110 lost connection: Disconnected
-[07:08:20] [Server thread/INFO]: Miau0110 left the game
-[07:09:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:54:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/nanita/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:54:51] [main/INFO]: Compatibility level set to JAVA_21
+[05:54:52] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:54:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05:55:03] [main/INFO]: Loading Collective version 7.89.
+[05:55:04] [main/INFO]: Registering Particles for frozenlib
+[05:55:05] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[05:55:05] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[05:55:05] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[05:55:05] [main/INFO]: Initializing JamLib on Fabric
+[05:55:05] [main/INFO]: Updated config file at /workspaces/nanita/servidor_minecraft/config/rightclickharvest.json5
+[05:55:05] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[05:55:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[05:55:05] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[05:55:05] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[05:55:05] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[05:55:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[05:55:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[05:55:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[05:55:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[05:55:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[05:55:06] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[05:55:07] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[05:55:07] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:55:07] [main/INFO]: filament models registered: 2
+[05:55:07] [main/INFO]: Filament items registered: 1
+[05:55:07] [main/INFO]: Filament blocks registered: 0
+[05:55:07] [main/INFO]: Filament decorations registered: 237
+[05:55:07] [main/INFO]: Filament decoration block entities registered: 172
+[05:55:08] [main/INFO]: filament models registered: 2
+[05:55:09] [Worker-Main-2/ERROR]: Couldn't parse data file 'tooltrims:toolsmithing_table' from 'tooltrims:recipe/toolsmithing_table.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"tag":"minecraft:planks"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:planks"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:planks"}; Second: Not a string: {"tag":"minecraft:planks"}']
+[05:55:09] [main/INFO]: Loaded 1951 recipes
+[05:55:09] [main/INFO]: Loaded 1830 advancements
+[05:55:10] [main/WARN]: Recipe packedup:diamond_from_silver can't be placed due to empty ingredients and will be ignored
+[05:55:10] [main/WARN]: Recipe packedup:silver_from_copper can't be placed due to empty ingredients and will be ignored
+[05:55:10] [main/WARN]: Recipe packedup:silver_from_iron can't be placed due to empty ingredients and will be ignored
+[05:55:10] [main/INFO]: Applied 66 biome modifications to 63 of 64 new biomes in 12.13 ms
+[05:55:10] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[05:55:10] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[05:55:10] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[05:55:10] [Server thread/INFO]: Loading properties
+[05:55:10] [Server thread/INFO]: Default game type: SURVIVAL
+[05:55:10] [Server thread/INFO]: Generating keypair
+[05:55:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:55:10] [Server thread/INFO]: Using epoll channel type
+[05:55:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:55:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:55:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:55:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:55:10] [Server thread/INFO]: Preparing level "world"
+[05:55:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:55:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:55:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:55:14] [Server thread/INFO]: Time elapsed: 3122 ms
+[05:55:14] [Server thread/INFO]: Done (3.696s)! For help, type "help"
+[05:55:14] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[05:55:14] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[05:55:14] [Server thread/INFO]: [REI] Plugins (3):
+[05:55:14] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[05:55:14] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[05:55:14] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[05:55:14] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[05:55:14] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 5.979 ms, totaling 101.8 ms.
+[05:55:14] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[05:55:14] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[05:55:14] [Server thread/INFO]: [REI] Plugins (3):
+[05:55:14] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[05:55:14] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[05:55:14] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[05:55:14] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[05:55:14] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 5.122 ms, totaling 155.1 ms.
+[05:55:22] [Server thread/INFO]: inser[/127.81.159.172:43835] logged in with entity id 20 at (-802.4824089337953, 63.0, -4054.300000011921)
+[05:55:22] [Server thread/INFO]: inser joined the game
+[05:55:57] [Server thread/INFO]: Miau0110[/127.191.197.32:60229] logged in with entity id 516 at (-814.9299480830368, 64.0, -4018.653776504967)
+[05:55:57] [Server thread/INFO]: Miau0110 joined the game
+[05:56:54] [Server thread/INFO]: Miau0110 has made the advancement [Not Today, Thank You]
+[05:58:10] [Server thread/INFO]: inser has made the advancement [Take Aim]
+[06:00:05] [Server thread/INFO]: [Not Secure] <Miau0110> mimimimim
