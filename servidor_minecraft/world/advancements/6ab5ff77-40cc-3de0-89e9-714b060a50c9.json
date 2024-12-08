@@ -1093,5 +1093,101 @@
     },
     "done": true
   },
+  "expandedstorage:recipes/misc/gold_mini_chest": {
+    "criteria": {
+      "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/present": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/vanilla_wood_mini_chest": {
+    "criteria": {
+      "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/copper_chest": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/pumpkin_chest": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/netherite_mini_chest": {
+    "criteria": {
+      "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/obsidian_mini_chest": {
+    "criteria": {
+      "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/copper_mini_chest": {
+    "criteria": {
+      "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/storage_mutator": {
+    "criteria": {
+      "has_chest": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/wood_chest": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/diamond_mini_chest": {
+    "criteria": {
+      "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/basic_from_chest": {
+    "criteria": {
+      "recipe_condition": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/moss_chest": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/bamboo_chest": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/expensive_iron_chest": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/iron_mini_chest": {
+    "criteria": {
+      "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4082
 }
