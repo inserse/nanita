@@ -402,3 +402,14 @@
 [06:07:09] [Netty Epoll Server IO #6/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 [06:24:07] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
 [06:24:26] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[06:24:58] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[06:26:04] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[06:28:50] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[06:29:21] [Server thread/INFO]: [inser: Set own game mode to Spectator Mode]
+[06:29:35] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[06:29:56] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[06:30:22] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[06:30:44] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[06:34:33] [Server thread/INFO]: inser has made the advancement [Bigger is better]
+[06:35:36] [Server thread/INFO]: [Not Secure] <inser> nicotina
+[06:35:43] [Server thread/INFO]: [Not Secure] <inser> nekotina

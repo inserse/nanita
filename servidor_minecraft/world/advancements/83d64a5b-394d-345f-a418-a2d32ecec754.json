@@ -13,6 +13,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2024-12-08 06:24:09 +0000",
       "minecraft:cold_ocean": "2024-12-07 05:58:49 +0000",
       "minecraft:beach": "2024-12-07 06:28:20 +0000",
       "minecraft:old_growth_pine_taiga": "2024-12-07 06:15:18 +0000",
@@ -32,6 +33,7 @@
       "minecraft:meadow": "2024-12-07 05:32:35 +0000",
       "minecraft:birch_forest": "2024-12-07 05:27:34 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:45 +0000",
+      "minecraft:savanna": "2024-12-08 06:23:01 +0000",
       "minecraft:bamboo_jungle": "2024-12-07 06:35:51 +0000",
       "minecraft:plains": "2024-12-07 06:53:58 +0000",
       "minecraft:warm_ocean": "2024-12-08 06:17:58 +0000"
@@ -419,6 +421,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-12-07 05:34:32 +0000",
+      "bread": "2024-12-08 06:39:19 +0000",
       "cooked_chicken": "2024-12-07 05:40:53 +0000",
       "cooked_mutton": "2024-12-07 05:33:59 +0000",
       "melon_slice": "2024-12-07 06:37:06 +0000",
@@ -428,6 +431,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:cave_spider": "2024-12-08 06:24:15 +0000",
       "minecraft:skeleton": "2024-12-07 05:34:17 +0000",
       "minecraft:spider": "2024-12-07 05:40:12 +0000",
       "minecraft:zombie": "2024-12-07 05:34:36 +0000",
@@ -1325,6 +1329,48 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2024-12-08 05:58:10 +0000"
@@ -1349,15 +1395,33 @@
     },
     "done": true
   },
+  "packedup:recipes/misc/gold_from_iron": {
+    "criteria": {
+      "recipe_condition": "2024-12-08 06:34:33 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/copper_chest": {
     "criteria": {
       "has_previous_block": "2024-12-08 05:59:59 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/pumpkin_chest": {
     "criteria": {
       "has_previous_block": "2024-12-08 05:59:59 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/silver_from_iron": {
+    "criteria": {
+      "recipe_condition": "2024-12-08 06:34:33 +0000"
     },
     "done": true
   },
@@ -1373,9 +1437,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/obsidian_mini_chest": {
     "criteria": {
       "has_item": "2024-12-08 05:59:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-08 06:36:23 +0000"
     },
     "done": true
   },
@@ -1391,6 +1467,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-12-08 06:36:23 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/wood_chest": {
     "criteria": {
       "has_previous_block": "2024-12-08 05:59:59 +0000"
@@ -1400,6 +1482,30 @@
   "expandedstorage:recipes/misc/diamond_mini_chest": {
     "criteria": {
       "has_item": "2024-12-08 05:59:59 +0000"
+    },
+    "done": true
+  },
+  "packedup:iron_or_copper_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2024-12-08 06:34:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pile_of_gold_ingots": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
     },
     "done": true
   },
@@ -1421,6 +1527,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/gold_to_diamond_conversion_kit": {
+    "criteria": {
+      "has_item": "2024-12-08 06:24:40 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/expensive_iron_chest": {
     "criteria": {
       "has_previous_block": "2024-12-08 05:59:59 +0000"
@@ -1430,6 +1548,18 @@
   "expandedstorage:recipes/misc/iron_mini_chest": {
     "criteria": {
       "has_item": "2024-12-08 05:59:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-08 06:36:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-08 06:24:40 +0000"
     },
     "done": true
   },

@@ -1125,9 +1125,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-08 06:28:21 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/netherite_mini_chest": {
     "criteria": {
       "has_item": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-08 06:28:21 +0000"
     },
     "done": true
   },
