@@ -209,3 +209,8 @@
 [20:56:25] [Server thread/INFO]: Named entity class_1646['Paquita'/1387, l='ServerLevel[world]', x=-850.71, y=64.00, z=-4236.68] died: Paquita was slain by inser
 [20:56:45] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
 [20:57:08] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[21:00:57] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[21:01:01] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[21:07:00] [Server thread/INFO]: Villager class_1646['Paquita'/141, l='ServerLevel[world]', x=-787.58, y=64.02, z=-4056.17] died, message: 'Paquita was slain by inser'
+[21:07:00] [Server thread/INFO]: Named entity class_1646['Paquita'/141, l='ServerLevel[world]', x=-787.58, y=64.02, z=-4056.17] died: Paquita was slain by inser
+[21:09:33] [Server thread/INFO]: Miau0110 has made the advancement [Cover Me with Diamonds]

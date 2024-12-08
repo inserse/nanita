@@ -3631,9 +3631,21 @@
     },
     "done": true
   },
+  "expandedstorage:recipes/misc/obsidian_mini_barrel": {
+    "criteria": {
+      "has_item": "2024-12-08 21:05:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_sandstone": "2024-12-08 20:53:46 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/diamond_mini_barrel": {
+    "criteria": {
+      "has_item": "2024-12-08 21:05:14 +0000"
     },
     "done": true
   },
@@ -3643,15 +3655,75 @@
     },
     "done": true
   },
+  "expandedstorage:recipes/misc/copper_mini_barrel": {
+    "criteria": {
+      "has_item": "2024-12-08 21:05:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2024-12-08 20:58:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2024-12-08 20:58:06 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/iron_mini_barrel": {
+    "criteria": {
+      "has_item": "2024-12-08 21:05:14 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/gold_mini_barrel": {
+    "criteria": {
+      "has_item": "2024-12-08 21:05:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_sandstone": "2024-12-08 20:53:46 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_cut_sandstone": "2024-12-08 20:58:06 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/expensive_iron_barrel": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 21:05:14 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/copper_barrel": {
+    "criteria": {
+      "has_previous_block": "2024-12-08 21:05:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
     "criteria": {
       "has_smooth_sandstone": "2024-12-08 20:53:46 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/netherite_mini_barrel": {
+    "criteria": {
+      "has_item": "2024-12-08 21:05:14 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/mini_barrel": {
+    "criteria": {
+      "has_item": "2024-12-08 21:05:14 +0000"
     },
     "done": true
   },
