@@ -249,3 +249,7 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:06:52] [Server thread/INFO]: [Not Secure] <inser> xaero-waypoint:spauner para futura jg:S:-2560:15:-3202:1:false:0:Internal-overworld-waypoints
+[22:08:43] [Server thread/INFO]: inser has made the advancement [Who Needs Rockets?]
+[22:09:27] [Server thread/INFO]: Miau0110 has made the advancement [Who Needs Rockets?]
+[22:10:48] [Server thread/INFO]: inser has made the advancement [Crafting a New Look]
