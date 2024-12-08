@@ -566,3 +566,4 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [07:54:20] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
 [07:54:20] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 [07:54:20] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[08:09:11] [Server thread/INFO]: inser has made the advancement [Enchanter]
