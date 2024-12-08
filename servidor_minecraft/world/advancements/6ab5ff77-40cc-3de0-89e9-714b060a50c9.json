@@ -25,13 +25,15 @@
       "minecraft:lush_caves": "2024-12-07 06:42:34 +0000",
       "minecraft:old_growth_birch_forest": "2024-12-07 06:24:51 +0000",
       "minecraft:frozen_ocean": "2024-12-07 06:06:58 +0000",
+      "minecraft:desert": "2024-12-08 06:17:47 +0000",
       "minecraft:ocean": "2024-12-07 06:34:39 +0000",
       "minecraft:jungle": "2024-12-07 06:51:39 +0000",
       "minecraft:meadow": "2024-12-07 05:32:34 +0000",
       "minecraft:birch_forest": "2024-12-07 05:26:57 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-12-07 06:12:51 +0000",
       "minecraft:bamboo_jungle": "2024-12-07 06:39:04 +0000",
-      "minecraft:plains": "2024-12-07 06:53:58 +0000"
+      "minecraft:plains": "2024-12-07 06:53:58 +0000",
+      "minecraft:warm_ocean": "2024-12-08 06:17:55 +0000"
     },
     "done": false
   },
@@ -1129,6 +1131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2024-12-08 06:17:17 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/obsidian_mini_chest": {
     "criteria": {
       "has_item": "2024-12-08 06:10:10 +0000"
@@ -1171,15 +1179,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-08 06:20:13 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/bamboo_chest": {
     "criteria": {
       "has_previous_block": "2024-12-08 06:10:10 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-12-08 06:17:17 +0000"
+    },
+    "done": true
+  },
   "expandedstorage:recipes/misc/expensive_iron_chest": {
     "criteria": {
       "has_previous_block": "2024-12-08 06:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-08 06:20:13 +0000"
     },
     "done": true
   },

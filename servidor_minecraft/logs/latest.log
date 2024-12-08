@@ -400,3 +400,5 @@
 [06:07:09] [Netty Epoll Server IO #6/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
 [06:07:09] [Netty Epoll Server IO #6/INFO]: [STDERR]: 	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 [06:07:09] [Netty Epoll Server IO #6/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[06:24:07] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[06:24:26] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
