@@ -428,7 +428,8 @@
       "rotten_flesh": "2024-12-09 21:16:05 +0000",
       "cooked_mutton": "2024-12-07 05:33:59 +0000",
       "melon_slice": "2024-12-07 06:37:06 +0000",
-      "cooked_salmon": "2024-12-07 05:54:51 +0000"
+      "cooked_salmon": "2024-12-07 05:54:51 +0000",
+      "golden_carrot": "2024-12-09 21:45:43 +0000"
     },
     "done": false
   },
@@ -3953,9 +3954,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-12-09 21:53:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2024-12-09 20:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-12-09 21:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-12-09 21:53:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-12-09 22:02:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-12-09 21:53:21 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/obsidian_to_old_obsidian_chest": {
+    "criteria": {
+      "has_item": "2024-12-09 22:01:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-12-09 21:53:57 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/netherite_barrel": {
+    "criteria": {
+      "has_previous_block": "2024-12-09 22:01:01 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/obsidian_chest_minecart": {
+    "criteria": {
+      "has_chest": "2024-12-09 22:01:09 +0000"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/misc/netherite_chest": {
+    "criteria": {
+      "has_previous_block": "2024-12-09 22:01:09 +0000"
     },
     "done": true
   },
