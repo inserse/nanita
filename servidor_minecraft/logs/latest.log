@@ -335,3 +335,14 @@
 [20:53:08] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
 [21:07:01] [Server thread/INFO]: Villager class_1646['Pepe'/5504, l='ServerLevel[world]', x=-2508.70, y=67.00, z=-3229.79] died, message: 'Pepe was slain by Zombie'
 [21:07:01] [Server thread/INFO]: Named entity class_1646['Pepe'/5504, l='ServerLevel[world]', x=-2508.70, y=67.00, z=-3229.79] died: Pepe was slain by Zombie
+[21:14:44] [Server thread/INFO]: [inser: Set own game mode to Spectator Mode]
+[21:15:02] [Server thread/INFO]: [inser: Set own game mode to Adventure Mode]
+[21:15:03] [Server thread/INFO]: [inser: Set own game mode to Spectator Mode]
+[21:15:07] [Server thread/INFO]: [inser: Set own game mode to Adventure Mode]
+[21:15:08] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[21:15:20] [Server thread/INFO]: [inser: Set own game mode to Spectator Mode]
+[21:15:29] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[21:15:57] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[21:15:58] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
+[21:15:59] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[21:16:30] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
