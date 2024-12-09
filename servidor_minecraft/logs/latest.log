@@ -432,3 +432,16 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [22:13:28] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
 [22:13:40] [Server thread/INFO]: [inser: Set own game mode to Creative Mode]
 [22:13:43] [Server thread/INFO]: [inser: Set own game mode to Survival Mode]
+[22:15:10] [Server thread/INFO]: inser lost connection: Disconnected
+[22:15:10] [Server thread/INFO]: inser left the game
+[22:15:16] [Server thread/INFO]: Stopping the server
+[22:15:16] [Server thread/INFO]: Stopping server
+[22:15:16] [Server thread/INFO]: Saving players
+[22:15:16] [Server thread/INFO]: Saving worlds
+[22:15:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:15:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:15:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:15:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
